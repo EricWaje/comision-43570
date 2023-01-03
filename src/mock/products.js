@@ -10,6 +10,15 @@ export const products = [
     },
     {
         id: 2,
+        descuento: 20,
+        title: 'Remera Blanca',
+        price: 2500,
+        stock: 7,
+        category: 'remeras',
+        img: 'https://res.cloudinary.com/ericwaje/image/upload/v1619372707/remera2_pe94nf.jpg',
+    },
+    {
+        id: 3,
         descuento: 5,
         title: 'Billetera',
         price: 200,
@@ -18,7 +27,7 @@ export const products = [
         img: 'https://res.cloudinary.com/ericwaje/image/upload/v1619372706/billetera2C_bf0hvq.jpg',
     },
     {
-        id: 3,
+        id: 4,
         descuento: 50,
         title: 'Camisa',
         price: 3000,

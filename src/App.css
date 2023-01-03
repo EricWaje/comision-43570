@@ -65,15 +65,16 @@ main {
 }
 
 .item-list {
+    width: 1024px;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .item {
     position: relative;
-    margin: 40px 16px 16px 16px;
+    margin: 40px 22px 16px 22px;
     border-radius: 8px;
     padding: 6px;
     transition: all 0.2s ease-in-out;
@@ -127,6 +128,124 @@ main {
     padding: 4px 6px;
     border-radius: 8px;
     font-size: 15px;
+}
+
+/* DETALLE */
+
+.container-detail {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.container-detail img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+.container-detail article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.container-detail article h2 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.container-detail article h4 {
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #007894;
+    color: white;
+    border-radius: 8px;
+    padding: 6px;
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+}
+
+.container-detail article .info-span {
+    color: rgb(119, 119, 119);
+    font-size: 12px;
+    margin-left: 0px;
+}
+
+.container-detail article .cuotas {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container-detail article .cuotas strong {
+    color: black;
+    font-weight: 600;
+}
+
+.container-detail article section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-detail article section h3 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.container-detail article section h5 {
+    color: rgba(252, 102, 102, 0.717);
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.container-detail article .metodos-pagos {
+    border: 2px solid #007894;
+    border-radius: 8px;
+    padding: 6px 12px;
+    background-color: white;
+    font-size: 12px;
+    color: #007894;
+    font-weight: 600;
+}
+
+/* CONTADOR */
+.container-counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    gap: 10px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.counter button {
+    background-color: #007894;
+    border: none;
+    padding: 4px 6px;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.add-to-cart {
+    background-color: #007894;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 /* FOOTER */

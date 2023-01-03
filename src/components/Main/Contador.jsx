@@ -16,20 +16,15 @@ const Contador = ({ stock }) => {
     };
 
     return (
-        <div
-            style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                minHeight: '80vh',
-            }}
-        >
-            <button onClick={restar}>-</button>
-            <p>{cantidad}</p>
-            <button disabled={cantidad === stock} onClick={sumar}>
-                +
-            </button>
-            <button>Agregar al carrito</button>
+        <div className="container-counter">
+            <div className="counter">
+                <button onClick={restar}>-</button>
+                <p>{cantidad}</p>
+                <button disabled={cantidad === stock} onClick={sumar}>
+                    +
+                </button>
+            </div>
+            <button className="add-to-cart">Agregar al carrito</button>
         </div>
     );
 };

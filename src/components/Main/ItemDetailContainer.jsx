@@ -1,7 +1,8 @@
 import React from 'react';
+import ItemDetail from './ItemDetail';
 
 const ItemDetailContainer = () => {
-    return <div>ItemDetailContainer</div>;
+    return <ItemDetail />;
 };
 
 export default ItemDetailContainer;
