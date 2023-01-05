@@ -49,6 +49,16 @@ span {
     margin-left: 5px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
 /* MAIN */
 
 .container {
@@ -78,6 +88,10 @@ main {
     border-radius: 8px;
     padding: 6px;
     transition: all 0.2s ease-in-out;
+}
+
+.ver-detalle {
+    color: black;
 }
 
 .info {
